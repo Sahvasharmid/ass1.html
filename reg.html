@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body style="background-color: rgb(206, 205, 205);">
+    <h1 align="center"><strong> Registration Form</strong></h1>
+    <div style="margin-left: 30px;">
+    <form>
+       First Name: <input type="text" name="txt1" maxlength="4" required><br><br>
+       Last Name: <input type="text" name="txt2" maxlength="5" required><br><br>
+       DOB: <input type="date" name="date" required><br><br>
+       Email id: <input type="email" name="email"><br><br>
+       Mob No: <input type="tel" maxlength="10"><br><br>
+       Gender: <input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">female<br><br>
+        Address:<br><textarea name="txtarea" rows="5" cols="20"></textarea><br><br>
+       City: <input type="text" name="text1" max_length="30"><br><br>
+       PIN Code: <input type="text" maxlength="6"><br><br>
+       Country: <select>
+           <option value="select">select your country</option>
+           <option value="INDIA">INDIA</option>
+           <option value="USA">USA</option>
+           <option value="BELGIUM">Belgium</option>
+           <option value="AUSTRIA">Austria</option>
+           <option value="GERMANY">Germany</option>
+           <option value="FRANCE">France</option>
+           <option value="AUSTRALIA">Australia</option>
+           <option value="BRAZIL">Brazil/option>
+           <option value="AFGHANISTAN">Afghanistan</option>
+           <option value="COLOMBIA">Colombia</option>
+       </select><br><br>
+       
+      Qualification: <table width="60%">
+           <tr>
+               <th>SNO</th>
+               <th>Examination</th>
+               <th>Board</th>
+               <th>Percentage</th>
+               <th>Year of Paasing</th>
+           </tr>
+           <tr>
+               <td align="center">1</td>
+               <td>CLASS X</td>
+               <td><input type="text" name="text1"></td>
+               <td><input type="text" name="Percentage"></td>
+               <td><input type="month" name="month"></td>
+               </tr>
+               <tr>
+                <td align="center">2</td>
+                <td>CLASS XI</td>
+                <td><input type="text" name="text1"></td>
+                <td><input type="text" name="Percentage"></td>
+                <td><input type="month" name="month"></td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td>CLASS XII</td>
+                    <td><input type="text" name="text1"></td>
+                    <td><input type="text" name="Percentage"></td>
+                    <td><input type="month" name="month"></td>
+                    </tr>
+                    </table>
+       </div>
+                    <br>
+           
+      Course you would like to join: <input type="checkbox" name="chkbox" value="fullstack">full stack
+       <input type="checkbox" name="chkbox" value="css">CSS
+       <input type="checkbox" name="chkbox" value="html">HTML
+       <input type="checkbox" name="chkbox" value="php">PHP
+       <input type="checkbox" name="chkbox" value="javascript">javascript<br><br>
+       <button type="submit" style="background-color: darkgray;">
+          <strong>Submit</strong>
+    </button>
+    <button type="reset" style="background-color: darkgray;">
+        <strong>Reset</strong>
+    </button>
+
+    </form>
+    </div>
+</body>
+
+</html>
